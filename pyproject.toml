@@ -20,8 +20,8 @@ streamlit = ">=0.63"
 
 [tool.poetry.dev-dependencies]
 pytest = "==7.4.0"
-#wheel = "^0.36.2"
-wheel
+# wheel = "^0.36.2"
+wheel = "*"
 
 [build]
 builder = "pypa/manylinux2014_x86_64"
